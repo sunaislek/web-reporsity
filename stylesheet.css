@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #aa1227; 
+  color: rgb(247, 241, 241);
+}
+
+  h1, h2 {
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #5a0018; 
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox ile hizalama */
+  justify-content: center; /* Merkezde hizalar */
+  align-items: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Home Section */
+  #home {
+    padding: 60px 20px;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  
+  .home-content img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  @media (max-width: 768px) {
+    .home-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .home-content img {
+      width: 100%; 
+      height: auto; 
+    }
+  }
+  .home-text {
+    text-align: center;
+    max-width: 600px;
+    background-color: rgb(204, 108, 108);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+
+  }
+  
+  /* About Me Section */
+  #about {
+    padding: 60px 20px;
+  }
+  
+  .about-text {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(204, 108, 108);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+
+  }
+  
+  .about-video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Internship Section */
+  #internship {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgb(204, 108, 108);
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+
+    
+  }
+  
+  #internship a {
+    color: #f7f4f4;
+    font-weight: bold;
+  }
+  
+  #internship a:hover {
+    color: #5a0018;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgb(204, 108, 108);
+    padding: 10px;
+    margin-bottom: 110px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+
+  }
+  
+  #contact a {
+   
+    margin: 5px;
+    font-weight: bold;
+  }
+  
+  #contact a:hover {
+    color: #360302;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #5a0018;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
